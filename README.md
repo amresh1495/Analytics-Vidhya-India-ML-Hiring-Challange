@@ -3,8 +3,8 @@
 ###### Amresh Giri (amresh.giri14@gmail.com)
 
 ### Step by step approach - 
-1. After undesrtanding the probelm statement and going through the dataset, I understood that this is a binary classification problem. 
-2. Did basic data preprocessing like calculating for na values, missing values, checking types of variables, etc.
+1. After undesrtanding the problem statement and going through the dataset, I understood that this is a binary classification problem. 
+2. Did some basic data preprocessing like calculating for na values, missing values, checking types of variables, varibale stats, etc.
 3. After doing some basic analysis, I found that the target variable was hugely imbalanced. 
 4. Converted the categorical values to numeric by encoding them.
 5. Selected the best features by using Recursive Feature Engineering. 
@@ -12,7 +12,7 @@
 5. Tried different classification algorithms with best balancing technique and best selected features. 
 6. Combination of Gradient Boosting Classifier with its best params (through GridSearchCV) with SMOTE gave me the best F1-score. 
 
- ##### Packages  Used - 
+ ##### Packages Used - 
  - pandas==0.24.2
  - sklearn==0.21.3
  - xgboost==1.0.0
